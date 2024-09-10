@@ -13,7 +13,7 @@ app.use(express.json());
 // Routes
 app.use('/api/auth', authRoutes);
 
-// MongoDB Connection
+// MongoDB Connection 12
 mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log('Connected to MongoDB'))
     .catch((err) => console.log('Failed to connect to MongoDB:', err));
