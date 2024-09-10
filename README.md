@@ -25,8 +25,10 @@ git clone https://github.com/MuhammadArslan118/auth-server.git
 cd auth-api
 ```
 
-### .env
+### 1. Clone the repository:
 
-- MONGO_URI=mongodb://localhost:27017/yourdbname
-- JWT_SECRET=your_secret_key
-- PORT=5000
+```bash
+MONGO_URI=mongodb://localhost:27017/yourdbname
+JWT_SECRET=your_secret_key
+PORT=5000
+```
