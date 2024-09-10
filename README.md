@@ -25,7 +25,7 @@ git clone https://github.com/MuhammadArslan118/auth-server.git
 cd auth-api
 ```
 
-### 1. Clone the repository:
+### 2. Update the .env:
 
 ```bash
 MONGO_URI=mongodb://localhost:27017/yourdbname
